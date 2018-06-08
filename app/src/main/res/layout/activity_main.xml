@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.easyang.smartprogressbar.MainActivity">
+
+    <com.easyang.progresslib.SmartProgressBar
+        android:id="@+id/spb_progress_bar_1"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:padding="10dp"
+        app:background_color="@android:color/darker_gray"
+        app:bar_height="10dp"
+        app:corner_radius="0dp"
+        app:max="100"
+        app:progress="2"
+        app:text_visibility="true"
+        app:text_gravity="Outer_Right_Bar"
+        app:percent_gravity="Center_Progress"
+        app:progress_color="@color/colorPrimary"
+        app:text_color="@color/colorPrimary"
+        app:percent_visibility="true" />
+
+    <com.easyang.progresslib.SmartProgressBar
+        android:id="@+id/spb_progress_bar_2"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:padding="10dp"
+        app:background_color="@android:color/darker_gray"
+        app:bar_height="10dp"
+        app:corner_radius="5dp"
+        app:max="100"
+        app:progress="1"
+        app:percent_gravity="Center_Progress"
+        app:text="测试："
+        app:percent_visibility="true"
+        app:text_gravity="Outer_Right_Bar"
+        app:progress_color="@color/colorPrimary"
+        app:text_color="#ffffff"
+        app:text_visibility="true" />
+
+    <com.easyang.progresslib.SmartProgressBar
+        android:id="@+id/spb_progress_bar_3"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:padding="10dp"
+        app:background_color="@android:color/darker_gray"
+        app:bar_height="16dp"
+        app:corner_radius="8dp"
+        app:max="100"
+        app:progress="6"
+        app:progress_color="@color/colorPrimary"
+        app:text_color="@color/colorPrimary"
+        app:text_visibility="false" />
+
+
+
+    <com.easyang.progresslib.SmartProgressBar
+        android:id="@+id/spb_progress_bar_4"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:padding="10dp"
+        app:background_color="@android:color/darker_gray"
+        app:bar_height="10dp"
+        app:corner_radius="8dp"
+        app:max="100"
+        app:progress="33"
+        app:text_gravity="Outer_Left_Bar"
+        app:text_offset="12dp"
+        app:progress_color="@color/colorPrimary"
+        app:text_color="@color/colorPrimary"
+        app:text_visibility="true" />
+
+    <com.easyang.progresslib.SmartProgressBar
+        android:id="@+id/spb_progress_bar_5"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:padding="10dp"
+        app:background_color="@android:color/darker_gray"
+        app:bar_height="10dp"
+        app:corner_radius="5dp"
+        app:max="100"
+        app:progress="1"
+        app:text_gravity="Outer_Right_Bar"
+        app:progress_color="@color/colorPrimary"
+        app:text_color="@color/colorPrimary"
+        app:text_visibility="true" />
+
+    <SeekBar
+        android:id="@+id/sb_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp" />
+</LinearLayout>
